@@ -6,8 +6,8 @@ require 'version'
 class DeckOfCards
   attr_reader :cards
   
-  SUITS = %w[Hearts Spades Diamonds Clubs]
-  RANKS = [*2..10, 'Jack', 'Queen', 'King', 'Ace']
+  SUITS = %w[Hearts Spades Diamonds Clubs Joker]
+  RANKS = [*2..10, 'Jack', 'Queen', 'King', 'Ace', 'Joker']
   
   def initialize
     @cards = []
