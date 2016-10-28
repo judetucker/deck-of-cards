@@ -21,6 +21,8 @@ class Card
       12
     when 'Jack'
       11
+    when 'Joker'
+      100
     else
       @rank
     end
